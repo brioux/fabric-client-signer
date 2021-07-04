@@ -1,4 +1,4 @@
-# A demo client signer for Hyperledger fabric 
+# A demo client signer with offline private keys for Hyperledger fabric 
 
 This is a node.js app that allows transactions to be signed by the client app (browser) for submission to a fabric network. It rebuilds the transaction submission process provided by the [Fabric javascript SDK](https://hyperledger.github.io/fabric-sdk-node/release-2.2/tutorial-sign-transaction-offline.html)
 
