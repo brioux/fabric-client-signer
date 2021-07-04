@@ -1,0 +1,11 @@
+h2 Submit to ledger
+form(action = 'build_endorsement', method = 'GET', name='submitTX', remote=true)
+    div
+       label(for = 'args') Function name and attributes:
+       input(name = 'args' value = '' style ='width: 500px')
+    br
+    div(id="postArgs")
+    button(type = 'submit', onsubmit="subtmiTX()") Submit
+
+div(id="postResults")
+    p #{result}

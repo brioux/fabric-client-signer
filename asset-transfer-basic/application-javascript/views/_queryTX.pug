@@ -1,0 +1,11 @@
+h2 Query ledger
+form(action = 'build_query', method = 'GET', name='evaluateTX', remote=true)
+    div
+       label(for = 'args') Function name and attributes:
+       input(name = 'args' value = '' style ='width: 500px')
+    br
+    div(id="queryArgs")
+    button(type = 'submit', onsubmit="evaluateTX()") Query
+
+div(id="queryResults")
+    p #{result}

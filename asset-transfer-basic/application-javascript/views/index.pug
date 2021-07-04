@@ -1,0 +1,12 @@
+extends layout
+block content
+  h1 #{site.title}
+
+  if(data)
+    h2 #{data.gatewayNotice}
+
+  include _register.pug
+  br
+  include _submitTX.pug
+  br
+  include _queryTX.pug
