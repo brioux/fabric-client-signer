@@ -2,7 +2,7 @@
 
 This is a node.js app that allows transactions to be signed by the client app (browser) for submission to a fabric network. It rebuilds the transaction submission process provided by the [Fabric javascript SDK](https://hyperledger.github.io/fabric-sdk-node/release-2.2/tutorial-sign-transaction-offline.html)
 
-This is a rebuild of the [Fabric test network](https://hyperledger-fabric.readthedocs.io/en/latest/test_network.html) using the Mac OS binaries. THe asss-transfer-basic example is used for the demo.
+This is a rebuild of the [Fabric test network](https://hyperledger-fabric.readthedocs.io/en/latest/test_network.html) using the Mac OS binaries. The asset-transfer-basic example is used for the demo.
 
 *work in prgress ...*
 
